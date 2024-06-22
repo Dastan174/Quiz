@@ -1,0 +1,86 @@
+body {
+  font-family: Verdana;
+  background-color: #ffffff;
+  margin: 0px;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(33, 131, 127, 0.5);
+}
+
+/* Header Styles  */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #218380; */
+  background-color: rgb(86, 121, 170);
+  color: #ffffff;
+  padding: 3vh;
+}
+
+/* specify min-width for time element to give enough space for the span inside it to contain 3 digits without visibly moving the "time" text */
+
+time {
+  min-width: 85px;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Styles */
+
+.button {
+  display: block;
+  color: #ffffff;
+  background-color: rgb(86, 121, 170);
+  padding: 2vh;
+  border-radius: 8px;
+  border: none;
+}
+
+.inline-buttons {
+  display: inline-flex;
+}
+
+/* Card Styles */
+
+.card {
+  width: 44%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 145px;
+  border: solid;
+  border-width: 2px;
+  padding: 5vw;
+  border-radius: 30px;
+  border-color: lightgray;
+  box-shadow: 10px 5px 5px lightgray;
+}
+
+/* Start Card Styles */
+
+#start-screen {
+  display: inline;
+  text-align: center;
+}
+
+/* Question Card Styles */
+
+.option-button {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+  font-size: 17px;
+}
+
+#result-div {
+  display: none;
+}
